@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,600;1,700&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+section{
+    padding: 5rem 10%;
+}
+.header{margin-top: 0;}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background: white;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    transition: ease .7s;
+}
+.btn:hover{
+    letter-spacing: .5rem;
+}
+.header{
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem .1rem rgba(0, 0, 0, .1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: white;
+}
+
+.header .logotipo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.header .logotipo i{
+    color: yellow;
+    padding-right: .5rem;
+}
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: blue;
+}
+.header .navbar{
+    background-color: white;
+}
+.header .navbar a:hover{
+    color: black;
+}
+
+#boton-menu{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+body{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    background: url(../IMG/patron.png);
+}
+
+.contacto{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 #666;
+}
+
+.mapa{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 10px;
+}
+.mapa img{
+width: 50%;
+}
+
+.formulario{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: center;
+}
+.formulario p{
+    padding: 4rem;
+    font-size: 2rem;
+    line-height: 2;
+    text-align: justify;
+}
+.formulario h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.cf{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#cfta{
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#enviar{
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: url(../IMG/patron.png);
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+
+/* Footer */
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    background: #ccc;
+ }
+ 
+ .footer .iconos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:2rem;
+ }
+ 
+ .footer .iconos .iconos2{
+    text-align: center;
+    padding:3rem 2rem;
+ }
+ 
+ .footer .iconos .iconos2 i{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: var(--peru);
+    color:var(--white);
+    margin-bottom: .5rem;
+    line-height: 5.8rem;
+    font-size: 2rem;
+ }
+ .footer .iconos .iconos2 i:hover{
+     transform: scale(1.5);
+ }
+ 
+ .footer .iconos .iconos2 h3{
+    font-size: 2rem;
+    color:var(--black);
+    padding:1rem 0;
+ }
+ 
+ .footer .iconos .iconos2 p{
+    line-height: 1.5;
+    font-size: 1.7rem;
+    color:var(--light-black);
+    text-transform: none;
+ }
+ 
+ .footer .redesS{
+    margin:2rem 0;
+ }
+ 
+ .footer .redesS a{
+    height: 6rem;
+    width: 6rem;
+    line-height: 5.8rem;
+    color:white;
+    background: black;
+    margin:0 .8rem;
+    font-size: 3.5rem;
+ }  
+ 
+ .footer .redesS a:hover{
+     color: black;
+     background: white;
+     transform: scale(1.5);
+     border-radius: 50%;
+ }
+ 
+ .footer .credit{
+    padding-top: 2.5rem;
+    margin-top: 3rem;
+    border-top: black;
+    font-size: 2rem;
+    color:rgba(0, 0, 0, .5)
+ }
+
+
+/* Sección Breakpoins Media Queries */
+
+@media(max-width: 1200px){
+    section{
+        padding: 3rem 5%;
+    }
+}
+
+
+@media(max-width: 991px){
+    section{
+        padding: 3rem 2rem;
+    }
+    html{
+        font-size: 55%;
+    }
+    .inicio .swiper-wrapper .contenido h3{
+        font-size: 15vw;
+    }
+    .acerca{
+        display: block;
+    }
+    .mapa{
+        width: 100%;
+        height: auto;
+        flex: 100%;
+    }
+    #loguiño{
+        width: 25%;
+    }
+    
+    
+    .formulario{
+        width: 100%;
+        height: auto;
+        flex: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    #boton-menu{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        right: 0;
+        left: 0;
+        border-top: .1rem solid rgba(0, 0, 0, .3);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        text-align: center;
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+    }
+}
+
+@media(max-width: 450px){
+
+    html{
+        font-size: 50%;
+    }
+    .inicio .swiper-wrapper .contenido h3{
+        font-size: 7rem;
+    }
+}

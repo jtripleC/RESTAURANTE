@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+</head>
+<body onload="carga()">
+    
+    <!-- CDN Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- CSS propietario -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu2.css">
+
+    <!-- Swiper -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/loader.css">
+    
+
+
+
+    <!-- Sección Header -->
+
+    <section class="header">
+        <a href="#" class="logotipo"><i class="fas fa-utensils">PARADISO ITALIANO</i></a>
+
+
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="menu.html">Menú</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+        <div id="boton-menu" class="fas fa-bars"></div>
+    </section>
+
+
+
+
+    <!-- Cuerpo de la Página -->
+    <section class="inicio" id="inicio">
+        <div class="swiper main-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide1">
+                    <div class="contenido">
+                    <span>Lo mejor de lo mejor</span>
+                    <h3>Un Paraíso a tu paladar</h3>
+                    <a href="menu.html" class="btn">Prueba</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide2">
+                    <div class="contenido">
+                    <span>Lo mejor de lo mejor</span>
+                    <h3>Aquí Comienza la Felicidad</h3>
+                    <a href="menu.html" class="btn">Prueba</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide3">
+                    <div class="contenido">
+                    <span>Lo mejor de lo mejor</span>
+                    <h3>Tu felicidad Nuestra Placer</h3>
+                    <a href="menu.html" class="btn">Prueba</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide4">
+                    <div class="contenido">
+                    <span>Lo mejor de lo mejor</span>
+                    <h3>Un Paraíso de Sabor</h3>
+                    <a href="menu.html" class="btn">Prueba</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide5">
+                    <div class="contenido">
+                    <span>Lo mejor de lo mejor</span>
+                    <h3>El Sabor de Vivir Bien</h3>
+                    <a href="menu.html" class="btn">Prueba</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+    <!-- Introducción Sección Acerca de -->
+
+    <section class="acerca" id="acerca">
+        <div class="img">
+            <img src="IMG/about.jpg" alt="">
+        </div>
+
+        <div class="contenido">
+            <h3 class="titulo">Bienvenido seas a Paradiso Italiano</h3>
+            <p>La más cercana experiencia que tendrás a estar en el paraíso, un restaurante como ningún otro nunca antes visto 
+                donde tu única regla es dejar que los temores y los problemas se vayan siendo feliz al saborear y deleitarte con uno de nuestra 
+                gran variedad de platillos disponibles...
+                
+            </p>
+            <a href="acerca.html" class="btn">MÁS...</a>
+            
+            <div class="contenedor">
+                <div class="iconos">
+                   <a href="galeria.html"> <img src="img/galeria.png" alt=""></a>
+                    <h3>Galería del Sabor</h3>
+                </div>
+                <div class="iconos">
+                    <a href="menu.html"><img src="img/menu.png" alt=""></a>
+                    <h3>Menú del Día</h3>
+                </div>
+                <div class="iconos">
+                    <img src="IMG/comentarios.png" alt="">
+                    <h3>Comentarios</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- OFERTA -->
+<section class="comida" id="comida">
+    <div class="heading">
+        <span>Popular Dishes</span>
+        <h3>Comida Sabrosa</h3>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="swiper slider-comida">
+        
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide slide" name="comida1">
+                <img src="img/COMIDA/DESAYUNO/pancakes.jpg" alt="">
+                <h3>Desayunos</h3>
+                <div class="precio2">¡Para que empieces el día de la mejor manera!</div>
+            </div>
+
+            <div class="swiper-slide slide" name="comida2">
+                <img src="img/COMIDA/ALMUERZO/sopa.jpg" alt="">
+                <h3>Almuerzos</h3>
+                <div class="precio2">¡Preparados con los ingredientes de mas alta calidad!</div>
+            </div>
+
+            <div class="swiper-slide slide" name="comida3">
+                <img src="img/COMIDA/CENA/pizzahongos.jpg" alt="">
+                <h3>Cenas</h3>
+                <div class="precio2">¡Que mejor que ir a dormir con el estómago lleno!</div>
+            </div>
+
+            <div class="swiper-slide slide" name="comida4">
+                <img src="img/COMIDA/DESAYUNO/pastelfresas.jpg" alt="">
+                <h3>Postres</h3>
+                <div class="precio2">¡Para que te deleites con su incomparable sabor!</div>
+            </div>
+
+            <div class="swiper-slide slide" name="comida5">
+                <img src="img/COMIDA/BEBIDAS/vino.jpg" alt="">
+                <h3> Bebidas </h3>
+                <div class="precio2">¡Pues hay ocasiones que lo ameritan!</div>
+            </div>
+
+
+        </div>
+
+        <br><br><br><br>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<br><br><br><br>
+
+<!-- PROMOS -->
+<section class="comida" id="comida">
+    <div class="heading">
+        <span>Porque Sabemos como Consentirte</span>
+        <h3>Especiales de Temporada</h3>
+        <br>
+        <br>
+        <br>
+        <span id="des">Promociones</span>
+    </div>
+
+    <div class="swiper slider-comida">
+        
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide slide" name="prom1">
+                <img src="img/COMIDA/PROMOS/restau.jpg" alt="">
+                <h3>CENA Gratis</h3>
+                <div class="precio2">Válido mientras duren existencias</div>
+                <p class="escondido">Por compras mayores a 25 dolares recibirás un ticket para
+                    participar en la rifa de cenas todo pagado en nuestro restaurante,
+                    cada semana tendremos nuevos ganadores
+                </p>
+            </div>
+
+            <div class="swiper-slide slide" name="prom2">
+                <img src="img/COMIDA/PROMOS/dis.jpg" alt="">
+                <h3>Descuento de Lealtad</h3>
+                <div class="precio2">Válido mientras duren existencias</div>
+                <p class="escondido">
+                    Ahora cada visita a nuestro restaurante cuenta, por cada tercera visita a 
+                    nuestro local, recibirás un vale equivalente a un 25% de descuento en 
+                    tu próxima visita.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide" name="prom3">
+                <img src="img/COMIDA/PROMOS/rom.jpg" alt="">
+                <h3>Cena para Dos</h3>
+                <div class="precio2">Válido mientras duren existencias</div>
+                <p class="escondido"> Por compras mayores a 50 dolares recibe como un regalo de cortesía
+                    una cena para dos totalmente pagada con un menu buffet completamente
+                    a tu disposición para el fin de semana.
+                </p>
+            </div>
+
+            <div class="swiper-slide slide" name="prom4">
+                <img src="img/COMIDA/PROMOS/res.jpg" alt="">
+                <h3>Viaje a las Estrellas</h3>
+                <div class="precio2">Válido mientras duren existencias</div>
+                <p class="escondido">En conmemoración de nuestro décimo aniversario, se hará una rifa
+                    de un viaje todo incluido a nuestro salón VIP en Las Vegas Nevada para dos semanas, 
+                    adelante, que esperas, participa ya...
+                </p>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<br><br><br><br>
+
+
+
+
+<!-- Comentarios -->
+
+<center>
+    <div class="container">
+
+        <span>Algunos comentarios de</span>
+        <h3>Satisfacción de Nuestros Clientes</h3>
+        <br>
+        <div class="wrapper">
+            
+    
+            <div class="swiper-sllide tarjeta">
+                <div class="ct">
+                    <img src="IMG/personaA.jpg" class="gente">
+                    <span class="nombre">Mary Johnson</span>
+                </div>
+                <div class="comentarios">
+                    <p class="com">Excelente Servicio, en verdad puedo admitir que ha sido uno de los mejores que he recibido en toda mi 
+                        vida, muy bien hecho, definitivamente recomiendo dicho lugar.
+                    </p>
+                    <div class="puntuacion">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<br><br><br>
+        <div class="wrapper">
+    
+            <div class="swiper-sllide tarjeta">
+                <div class="ct">
+                    <img src="IMG/personaB.jpg" class="gente">
+                    <span class="nombre">Josh Robinson</span>
+                </div>
+                <div class="comentarios">
+                    <p class="com">En verdad se nota el esfuerzo que le han puesto al local para hacer que en verdad se vea 
+                        y se sienta un ambiente de calma muy agradable a la hora de visitar el restaurante.
+                    </p>
+                    <div class="puntuacion">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<br><br><br>
+                <div class="wrapper">
+    
+            <div class="swiper-sllide tarjeta">
+                <div class="ct">
+                    <img src="IMG/personaC.jpg" class="gente">
+                    <span class="nombre">Lucy Smith</span>
+                </div>
+                <div class="comentarios">
+                    <p class="com">Sin duda alguna el restaurante superó todas mis expectativas, te atienden bien, siempre están 
+                        atentos a ver si necesitas algo y te tratan como si fueras un rey o una reyna, maravilloso.
+                    </p>
+                    <div class="puntuacion">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+</center>
+
+<!-- Footer Sitio Main -->
+
+<section class="footer">
+
+    <div class="iconos">
+ 
+       <div class="iconos2">
+          <i class="fas fa-clock"></i>
+          <h3>Estamos abiertos desde</h3>
+          <p>07:00am to 8:00pm</p>
+       </div>
+ 
+       <div class="iconos2">
+          <i class="fas fa-phone"></i>
+          <h3>Teléfono</h3>
+          <p>+4235952534</p>
+       </div>
+ 
+       <div class="iconos2">
+          <i class="fas fa-envelope"></i>
+          <h3>email</h3>
+          <p>johnjamessmith21@comcast.net</p>
+          <p>elvaliente123@yahoo.com</p>
+       </div>
+ 
+       <div class="iconos2">
+          <i class="fas fa-map"></i>
+          <h3>Dirección</h3>
+          <p>Sunny side, 24327 Calle Romeo, Villas Italianas, El Salvador.</p>
+       </div>
+ 
+    </div>
+ 
+    <div class="redesS">
+       <a href="https://www.facebook.com/" target=”blank” class="fab fa-facebook-f"></a>
+       <a href="https://twitter.com/" target=”blank” class="fab fa-twitter"></a>
+       <a href="https://www.instagram.com/" target=”blank” class="fab fa-instagram"></a>
+    </div>
+ 
+    <div class="credit"> Codificado por <span>Juan Campos</span> | Todos los Derechos reservados! </div>
+ 
+ </section>
+
+
+    <!-- JS propietario -->
+
+    <script src="JS/index.js"></script>
+    <script src="JS/coments.js"></script>
+    <!-- Swiper -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    
+
+    <!-- Slider Swiper -->
+    <script>
+      var swiper = new Swiper(".main-slider", {
+        grabCursor:true,
+        loop:true,
+        centeredSlides:true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+<script>
+    var swiper = new Swiper(".slider-comida", {
+      grabCursor:true,
+      loop:true,
+      centeredSlides:true,
+      pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+      breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      700: {
+        slidesPerView: 2,
+      },
+      1000: {
+        slidesPerView: 3,
+      },
+    },
+    });
+  </script>
+
+
+ 
+<script src="JS/index.js"></script>
+
+</body>
+</html>
